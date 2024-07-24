@@ -1,5 +1,4 @@
-
-.grid-container{
+.grid-container {
     width: auto;
     height: auto;
     display: grid;
@@ -11,14 +10,16 @@
     /* padding: 10px; */
 }
 
-.grid1{
+.grid1 {
     grid-column: 1/4;
     grid-row: 1/1;
 }
-label{
+
+label {
     cursor: pointer;
 }
-.grid2{
+
+.grid2 {
     grid-column: 2/3;
     grid-row: 1/1;
     height: 100px;
@@ -28,11 +29,13 @@ label{
 
 
 }
-.grid3{
+
+.grid3 {
     grid-column: 3/3;
     /* background-color: black; */
 }
-.grid4{
+
+.grid4 {
     grid-column: 1/1;
     grid-row: 2/3;
     background-color: rgb(50, 0, 96);
@@ -40,47 +43,50 @@ label{
     border-bottom-left-radius: 35%;
 
 }
-.grid5{
+
+.grid5 {
     grid-column: 2/2;
     grid-row: 2/3;
     background-color: rgb(50, 0, 96);
     font-size: large;
 }
 
-.grid6{
+.grid6 {
     grid-column: 3/4;
     grid-row: 2/3;
     background-color: rgb(50, 0, 96);
     border-bottom-right-radius: 15%;
     border-top-right-radius: 15%;
 }
-.grid7{
+
+.grid7 {
     grid-column: 1/1;
     grid-row: 3/3;
- 
+
 }
-.grid8{
+
+.grid8 {
     grid-column: 2/3;
     grid-row: 3/3;
     background-color: rgb(50, 0, 96);
     height: 1450%;
 }
 
-.grid9{
+.grid9 {
     grid-column: 3/3;
     grid-row: 3/3;
 }
 
-.grid6 > H1{
+.grid6>H1 {
     color: aliceblue;
     text-align: left;
     margin-bottom: 0%;
     font-size: 100px;
     padding-left: 5%;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.grid5 > img{
+.grid5>img {
     height: 300px;
     width: 300px;
     border-radius: 100%;
@@ -89,57 +95,59 @@ label{
     /* border-radius: outet(2px); */
 }
 
-p1{
+p1 {
     font-size: 20px;
     color: aliceblue;
     padding-left: 5%;
 }
 
 
-div > h4{
+div>h4 {
     margin-bottom: 5px;
 }
 
-.grid8 > div{
-    padding-left: 20px; 
+.grid8>div {
+    padding-left: 20px;
     padding-top: 5%;
-    color:white; 
+    color: white;
     font-size: medium;
 }
 
-color{
-    color:gray;
+color {
+    color: gray;
     /* opacity: 75%; */
 }
 
 
-.grid9 > div{
+.grid9>div {
     padding-left: 30px;
     /* background-color: blueviolet; */
     /* display: flex; */
     /* justify-content: flex-end; */
 }
 
-hr{
-    width: 15%; 
+hr {
+    width: 15%;
     float: left;
 }
 
-font{
+font {
     font-size: small;
 }
 
-h3{
+h3 {
     font-size: 30px;
 
 }
-footer{
+
+footer {
     /* grid-column: 3/3; */
     /* grid-row: 3/3; */
     text-align: right;
     /* background: lightpink; */
 }
-p1 > color{
+
+p1>color {
     color: gray;
     padding-left: 5%;
 }
