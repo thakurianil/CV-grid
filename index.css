@@ -51,6 +51,8 @@ label{
     grid-column: 3/4;
     grid-row: 2/3;
     background-color: rgb(50, 0, 96);
+    border-bottom-right-radius: 15%;
+    border-top-right-radius: 15%;
 }
 .grid7{
     grid-column: 1/1;
@@ -61,7 +63,7 @@ label{
     grid-column: 2/3;
     grid-row: 3/3;
     background-color: rgb(50, 0, 96);
-    height: 1400%;
+    height: 1450%;
 }
 
 .grid9{
