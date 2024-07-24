@@ -6,8 +6,8 @@ body{
     width: auto;
     height: auto;
     display: grid;
-    grid-template-columns: repeat(3, 5% 16% 80%);
-    grid-template-rows: 90px 300px 200px ;
+    grid-template-columns: repeat(3, 5% 16% 79%);
+    grid-template-rows: 90px 300px 200px 50px;
     /* gap: 10px; */
     /* padding: 10px; */
 }
@@ -15,6 +15,9 @@ body{
 .grid1{
     grid-column: 1/1;
     grid-row: 1/1;
+}
+label{
+    cursor: pointer;
 }
 .grid2{
     grid-column: 2/3;
@@ -52,7 +55,7 @@ body{
     grid-column: 2/3;
     grid-row: 3/3;
     background-color: rgb(50, 0, 96);
-    height: 1350%;
+    height: 1400%;
 }
 
 .grid9{
@@ -74,6 +77,8 @@ body{
     width: 300px;
     border-radius: 100%;
     align-content: center;
+
+    /* border-radius: outet(2px); */
 }
 
 p1{
@@ -89,6 +94,7 @@ div > h4{
 
 .grid8 > div{
     padding-left: 20px; 
+    padding-top: 5%;
     color:white; 
     font-size: medium;
 }
@@ -100,6 +106,7 @@ color{
 
 .grid9 > div{
     padding-left: 30px;
+    /* background-color: blueviolet; */
     /* display: flex; */
     /* justify-content: flex-end; */
 }
@@ -117,12 +124,12 @@ h3{
     font-size: 30px;
 
 }
-
 footer{
+    /* grid-column: 3/3; */
+    /* grid-row: 3/3; */
     text-align: right;
-    background: lightpink;
+    /* background: lightpink; */
 }
-
 p1 > color{
     color: gray;
     padding-left: 5%;
