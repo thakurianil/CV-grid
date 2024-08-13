@@ -57,6 +57,7 @@ label {
     background-color: rgb(50, 0, 96);
     border-bottom-right-radius: 15%;
     border-top-right-radius: 15%;
+    padding: 10px;
 }
 
 .grid7 {
@@ -70,6 +71,7 @@ label {
     grid-row: 3/3;
     background-color: rgb(50, 0, 96);
     /* height: 1450%; */
+    width: 100%;
 }
 
 .grid9 {
@@ -82,16 +84,16 @@ label {
     text-align: left;
     margin-bottom: 0%;
     font-size: 100px;
-    padding-left: 5%;
+    padding: 5%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .grid5>img {
-    height: 300px;
-    width: 300px;
+    height: 100%;
+    width: 100%;
     border-radius: 100%;
     align-content: center;
-
+    border:5px solid green;
     /* border-radius: outet(2px); */
 }
 
